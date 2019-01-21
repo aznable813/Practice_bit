@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.0"
 
     defaultConfig {
-        applicationId "com.SimpleDrawer"
+        applicationId "com.Include_prac"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 1
@@ -20,9 +20,5 @@ android {
 }
 
 dependencies {
-	compile 'com.android.support:support-core-utils:27.+'
-	compile 'com.android.support:support-core-ui:27.+'
-	compile 'com.android.support:design:27.+'
-	compile 'com.android.support:support-v4:27.+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }

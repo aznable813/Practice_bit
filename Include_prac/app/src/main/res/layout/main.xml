@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+	android:orientation="vertical">
+
+	<!-- body1-->
+	<include
+		android:layout_weight="2"
+		layout="@layout/incl_body1st"
+		android:id="@+id/incl_BD1" />
+	<!-- body2-->
+	<include
+		android:layout_weight="2"
+		layout="@layout/incl_body1st"
+		android:id="@+id/incl_BD2" />
+	<!-- body3-->
+	<include
+		android:layout_weight="1"
+		layout="@layout/incl_body2nd"
+		android:id="@+id/incl_BD3" />
+	
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
