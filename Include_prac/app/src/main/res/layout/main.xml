@@ -4,25 +4,34 @@
     android:gravity="center"
 	android:orientation="vertical">
 
+	<!-- Temp Area
+		
+	android:layout_weight="2"
+	-->
+	
 	<!-- body1-->
 	<include
-		android:layout_weight="2"
 		layout="@layout/incl_body1st"
-		android:id="@+id/incl_BD1" />
+		android:id="@+id/incl_BD1" 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"/>
+	
 	<!-- body2-->
 	<include
-		android:layout_weight="2"
-		layout="@layout/incl_body1st"
-		android:id="@+id/incl_BD2" />
+		layout="@layout/incl_body2nd"
+		android:id="@+id/incl_BD2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="2" />
+	
 	<!-- body3-->
 	<include
-		android:layout_weight="1"
-		layout="@layout/incl_body2nd"
-		android:id="@+id/incl_BD3" />
+		layout="@layout/incl_body1st"
+		android:id="@+id/incl_BD3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="3"/>
 	
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </LinearLayout>

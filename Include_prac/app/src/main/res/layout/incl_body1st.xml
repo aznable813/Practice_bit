@@ -1,14 +1,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center"
+    android:orientation="vertical"
+	android:background="#00FFFF">
 	
 	<TextView
-        android:text="@string/hello_world"
+		android:id="@+id/incl_BD1_txt1"
+        android:text="@string/BD1_Txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	<TextView
+		android:id="@+id/incl_BD1_txt2"
+        android:text="@string/BD1_Txt_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 	<Button
-		android:id="@+id/bd1_btn_1"
+		android:id="@+id/incl_BD1_btn1"
 		android:layout_height="wrap_content"
 		android:layout_width="match_parent"
 		android:text="@string/BD1_Btn_1"

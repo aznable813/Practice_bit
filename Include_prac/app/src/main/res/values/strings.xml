@@ -4,8 +4,11 @@
     <string name="app_name">Include_prac</string>
     <string name="hello_world">Hello world!</string>
 	
-	
+	<string name="BD1_Txt_1">Body1のTextラベル1の初期</string>
+	<string name="BD1_Txt_2">Body1のTextラベル2の初期</string>
 	<string name="BD1_Btn_1">Body1のボタンの初期</string>
+	
+	<string name="BD2_Txt_1">Body2のTextラベルの初期</string>
 	<string name="BD2_Btn_1">BD2のボタンFstの初期</string>
 	<string name="BD2_Btn_2">BD2のボタンScndの初期</string>
 

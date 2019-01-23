@@ -14,10 +14,15 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int bd1_btn_1=0x7f060000;
-        public static final int incl_BD1=0x7f060001;
-        public static final int incl_BD2=0x7f060002;
-        public static final int incl_BD3=0x7f060003;
+        public static final int incl_BD1=0x7f060006;
+        public static final int incl_BD1_btn1=0x7f060002;
+        public static final int incl_BD1_txt1=0x7f060000;
+        public static final int incl_BD1_txt2=0x7f060001;
+        public static final int incl_BD2=0x7f060007;
+        public static final int incl_BD2_btn1=0x7f060004;
+        public static final int incl_BD2_btn2=0x7f060005;
+        public static final int incl_BD2_txt1=0x7f060003;
+        public static final int incl_BD3=0x7f060008;
     }
     public static final class layout {
         public static final int incl_body1st=0x7f030000;
@@ -25,9 +30,12 @@ public final class R {
         public static final int main=0x7f030002;
     }
     public static final class string {
-        public static final int BD1_Btn_1=0x7f040002;
-        public static final int BD2_Btn_1=0x7f040003;
-        public static final int BD2_Btn_2=0x7f040004;
+        public static final int BD1_Btn_1=0x7f040004;
+        public static final int BD1_Txt_1=0x7f040002;
+        public static final int BD1_Txt_2=0x7f040003;
+        public static final int BD2_Btn_1=0x7f040006;
+        public static final int BD2_Btn_2=0x7f040007;
+        public static final int BD2_Txt_1=0x7f040005;
         public static final int app_name=0x7f040000;
         public static final int hello_world=0x7f040001;
     }
