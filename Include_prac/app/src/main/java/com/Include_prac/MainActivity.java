@@ -6,6 +6,9 @@ import android.widget.*;
 import android.view.*;
 import android.view.View.*;
 import android.text.*;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.v7.widget.*;
+
 
 public class MainActivity extends Activity 
 {
