@@ -2,6 +2,8 @@
 <resources>
 
     <string name="app_name">Coordnate_Toolbar</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Hello world!\nScroll String</string>
+	<string name="ScrollString">Scroll String\nScroll String\nScroll String</string>
+	
 
 </resources>
