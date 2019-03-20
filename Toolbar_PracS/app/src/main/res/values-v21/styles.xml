@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+	     スタイルの設定は以下の項目
+			※windowBackgroundは色を直書き出来ないので
+			※色の設定は基本的に「colors.xml」ファイルにまとめるべし
+	-->
+	<style name="AppTheme" parent="@android:style/Theme.Material">
+		<item name="android:colorAccent">#ff7733</item>
+		<item name="android:statusBarColor">#22ee33</item>
+		<item name="android:textColorPrimary">#EEDD55</item>
+		<item name="android:colorPrimary">#33FFee</item>
+		<item name="android:windowBackground">@color/BGblue</item>
+		<item name="android:navigationBarColor">#2255FF</item>
+	</style>
+	
+	<!--
+	      デフォルトはこの設定
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light">
+	</style>BGblue
+	-->
+</resources>
