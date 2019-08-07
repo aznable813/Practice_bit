@@ -608,7 +608,7 @@ containing a value of this type.
     public static final class id {
         public static final int barrier=0x7f06000e;
         public static final int bottom=0x7f060000;
-        public static final int btSave=0x7f060019;
+        public static final int btSave=0x7f06001b;
         public static final int cbDrink=0x7f060017;
         public static final int cbFood=0x7f060018;
         public static final int chains=0x7f06000f;
@@ -624,6 +624,8 @@ containing a value of this type.
         public static final int packed=0x7f06000c;
         public static final int parent=0x7f060008;
         public static final int percent=0x7f060009;
+        public static final int rbFemale=0x7f06001a;
+        public static final int rbMale=0x7f060019;
         public static final int right=0x7f060003;
         public static final int spread=0x7f06000a;
         public static final int spread_inside=0x7f06000d;
@@ -641,6 +643,8 @@ containing a value of this type.
         public static final int bt_save=0x7f040002;
         public static final int cb_drink=0x7f040003;
         public static final int cb_food=0x7f040004;
+        public static final int rb_female=0x7f040006;
+        public static final int rb_male=0x7f040005;
         public static final int tv_msg=0x7f040001;
     }
     public static final class style {
