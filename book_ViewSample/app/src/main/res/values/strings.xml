@@ -2,7 +2,12 @@
 <resources>
 
     <string name="app_name">画面部品サンプル</string>
-	<string name="tv_Msg">お名前を入力して下さい</string>
+	<string name="tv_msg">お名前を入力して下さい</string>
+	<string name="bt_save">保存</string>
+	<string name="cb_drink">ドリンク</string>
+	<string name="cb_food">フード</string>
+	
+	
     <!--
 		<string name="hello_world">Hello world!</string>
 	-->
