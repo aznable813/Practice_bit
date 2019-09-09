@@ -8,6 +8,9 @@
 package com.book_ViewSample;
 
 public final class R {
+    public static final class array {
+        public static final int sp_currylist=0x7f050000;
+    }
     public static final class attr {
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -606,34 +609,35 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int barrier=0x7f06000e;
-        public static final int bottom=0x7f060000;
-        public static final int btSave=0x7f06001b;
-        public static final int cbDrink=0x7f060017;
-        public static final int cbFood=0x7f060018;
-        public static final int chains=0x7f06000f;
-        public static final int dimensions=0x7f060010;
-        public static final int direct=0x7f060011;
-        public static final int end=0x7f060001;
-        public static final int etInput=0x7f060016;
-        public static final int gone=0x7f060006;
-        public static final int groups=0x7f060012;
-        public static final int invisible=0x7f060007;
-        public static final int left=0x7f060002;
-        public static final int none=0x7f060013;
-        public static final int packed=0x7f06000c;
-        public static final int parent=0x7f060008;
-        public static final int percent=0x7f060009;
-        public static final int rbFemale=0x7f06001a;
-        public static final int rbMale=0x7f060019;
-        public static final int right=0x7f060003;
-        public static final int spread=0x7f06000a;
-        public static final int spread_inside=0x7f06000d;
-        public static final int standard=0x7f060014;
-        public static final int start=0x7f060004;
-        public static final int top=0x7f060005;
-        public static final int tvLabelInput=0x7f060015;
-        public static final int wrap=0x7f06000b;
+        public static final int barrier=0x7f07000e;
+        public static final int bottom=0x7f070000;
+        public static final int btSave=0x7f07001c;
+        public static final int cbDrink=0x7f070017;
+        public static final int cbFood=0x7f070018;
+        public static final int chains=0x7f07000f;
+        public static final int dimensions=0x7f070010;
+        public static final int direct=0x7f070011;
+        public static final int end=0x7f070001;
+        public static final int etInput=0x7f070016;
+        public static final int gone=0x7f070006;
+        public static final int groups=0x7f070012;
+        public static final int invisible=0x7f070007;
+        public static final int left=0x7f070002;
+        public static final int none=0x7f070013;
+        public static final int packed=0x7f07000c;
+        public static final int parent=0x7f070008;
+        public static final int percent=0x7f070009;
+        public static final int rbFemale=0x7f07001a;
+        public static final int rbMale=0x7f070019;
+        public static final int right=0x7f070003;
+        public static final int spCurryList=0x7f07001b;
+        public static final int spread=0x7f07000a;
+        public static final int spread_inside=0x7f07000d;
+        public static final int standard=0x7f070014;
+        public static final int start=0x7f070004;
+        public static final int top=0x7f070005;
+        public static final int tvLabelInput=0x7f070015;
+        public static final int wrap=0x7f07000b;
     }
     public static final class layout {
         public static final int main=0x7f030000;
@@ -648,7 +652,7 @@ containing a value of this type.
         public static final int tv_msg=0x7f040001;
     }
     public static final class style {
-        public static final int AppTheme=0x7f050000;
+        public static final int AppTheme=0x7f060000;
     }
     public static final class styleable {
         /** Attributes that can be used with a ConstraintLayout_Layout.
