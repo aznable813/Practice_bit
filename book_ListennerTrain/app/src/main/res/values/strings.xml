@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">book_ListennerTrain</string>
+    <string name="hello_world">Hello world!</string>
+	
+	<string name="tv_name">お名前を入力して下さい</string>
+	<string name="bt_click">表示</string>
+	
+
+</resources>
