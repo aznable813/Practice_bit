@@ -9,6 +9,7 @@ package com.book_ViewSample;
 
 public final class R {
     public static final class array {
+        public static final int lv_cocktaillist=0x7f050001;
         public static final int sp_currylist=0x7f050000;
     }
     public static final class attr {
